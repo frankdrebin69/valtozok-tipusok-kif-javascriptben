@@ -8,7 +8,7 @@ let participants = 654 % 7
 
 document.getElementById("age").innerHTML = age + " éves vagyok"
 document.getElementById("ww2").innerHTML = ww2 + " évig tartott a 2. világháború "
-document.getElementById("tesla").innerHTML = tesla + " $-ba kerül 76 TESLA részvény 2021. 07. 21-én "
+document.getElementById("tesla").innerHTML = tesla + " $-ba kerül 76 Tesla részvény 2021. 07. 21-én "
 document.getElementById("secondsOfDay").innerHTML = secondsOfDay + " másodperc van egy napon "
 document.getElementById("hungarians").innerHTML = hungarians + " % a magyar lakosság aránya a Föld népességéhez képest 2021. 07. 21-én "
 document.getElementById("bigger").innerHTML = bigger + " -szer nagyobb Kína területe Csehország területéhez képest "
@@ -25,7 +25,7 @@ document.getElementById("names3Hosszabb").innerHTML = "A tömb 3. eleme: " + nam
 document.getElementById("namesTobb").innerHTML = "A names tömbben " + namesTobb + " elem van "
 
 let firstobject = {
-    colors: ["red", "blue", "orange"]
+    colors: ["red", "blue", "orange", "yellow"]
 }
 
 if (firstobject.colors.length > 3) {
