@@ -36,7 +36,7 @@ if (firstobject.colors.length > 3) {
 
 
 document.getElementById("firstobject").innerHTML = "A firstobject objektum első adatmezője: " + firstobject.colors
-document.getElementById("boolean").innerHTML = "A hasManyColors mező értéke: " + firstobject.hasManyColors
+document.getElementById("booleanertek").innerHTML = "A hasManyColors mező értéke: " + firstobject.hasManyColors
 
 
  
