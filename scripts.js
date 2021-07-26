@@ -15,13 +15,13 @@ document.getElementById("bigger").innerHTML = bigger + " -szer nagyobb Kína ter
 document.getElementById("participants").innerHTML = participants + " fős lesz a legkisebb Discord csatorna "
 
 let names = ['Ferenc', 'Viktor', 'Gergely']
-let names3Hosszabb = names[2].length
+let names3hossz = names[2].length
 names.push('Klára')
 names[0] = 'Peti'
 let namesTobb = names.length
 
 document.getElementById("names").innerHTML = " A names tömb elemei: " + names
-document.getElementById("names3Hosszabb").innerHTML = "A tömb 3. eleme: " + names[2] + " ami " + names3Hosszabb + " karakter hosszú "
+document.getElementById("names3hossz").innerHTML = "A tömb 3. eleme: " + names[2] + " ami " + names3hossz + " karakter hosszú "
 document.getElementById("namesTobb").innerHTML = "A names tömbben " + namesTobb + " elem van "
 
 let firstobject = {
